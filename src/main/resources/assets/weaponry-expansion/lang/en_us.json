@@ -1,0 +1,22 @@
+{
+  "item.weaponry-expansion.wooden_halberd": "Wooden Halberd",
+  "item.weaponry-expansion.stone_halberd": "Stone Halberd",
+  "item.weaponry-expansion.iron_halberd": "Iron Halberd",
+  "item.weaponry-expansion.golden_halberd": "Golden Halberd",
+  "item.weaponry-expansion.diamond_halberd": "Diamond Halberd",
+  "item.weaponry-expansion.netherite_halberd": "Netherite Halberd",
+  "item.weaponry-expansion.wooden_claymore": "Wooden Claymore",
+  "item.weaponry-expansion.stone_claymore": "Stone Claymore",
+  "item.weaponry-expansion.iron_claymore": "Iron Claymore",
+  "item.weaponry-expansion.golden_claymore": "Golden Claymore",
+  "item.weaponry-expansion.diamond_claymore": "Diamond Claymore",
+  "item.weaponry-expansion.netherite_claymore": "Netherite Claymore",
+  "item.weaponry-expansion.wooden_rapier": "Wooden Rapier",
+  "item.weaponry-expansion.stone_rapier": "Stone Rapier",
+  "item.weaponry-expansion.iron_rapier": "Iron Rapier",
+  "item.weaponry-expansion.golden_rapier": "Golden Rapier",
+  "item.weaponry-expansion.diamond_rapier": "Diamond Rapier",
+  "item.weaponry-expansion.netherite_rapier": "Netherite Rapier",
+
+  "itemgroup.weaponry_expansion": "Weaponry Expansion"
+}

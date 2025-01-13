@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "weaponry-expansion:item/wooden_halberd"
+  }
+}
