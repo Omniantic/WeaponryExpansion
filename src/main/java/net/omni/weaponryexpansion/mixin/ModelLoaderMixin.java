@@ -23,17 +23,23 @@ public abstract class ModelLoaderMixin {
 
     @Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V", ordinal = 3, shift = At.Shift.AFTER))
     public void addBigModel(BlockColors blockColors, Profiler profiler, Map<Identifier, JsonUnbakedModel> jsonUnbakedModels, Map<Identifier, List<ModelLoader.SourceTrackedData>> blockStates, CallbackInfo ci) {
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "wooden_halberd_held", "inventory"));
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "stone_halberd_held", "inventory"));
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "iron_halberd_held", "inventory"));
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "golden_halberd_held", "inventory"));
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "diamond_halberd_held", "inventory"));
-        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "netherite_halberd_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "wooden_claymore_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "stone_claymore_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "iron_claymore_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "golden_claymore_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "diamond_claymore_held", "inventory"));
         this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "netherite_claymore_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "wooden_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "stone_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "iron_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "golden_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "diamond_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "netherite_halberd_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "wooden_katana_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "stone_katana_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "iron_katana_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "golden_katana_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "diamond_katana_held", "inventory"));
+        this.addModel(new ModelIdentifier(WeaponryExpansion.MOD_ID, "netherite_katana_held", "inventory"));
     }
 }
